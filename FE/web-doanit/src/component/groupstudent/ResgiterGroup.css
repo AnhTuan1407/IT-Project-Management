@@ -1,0 +1,78 @@
+.resgiterGroup .student-name {
+    text-align: center;
+}
+
+.resgiterGroup .pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resgiterGroupc .h2Tan {
+    text-align: center;
+    background-color: #87AA74;
+    border-radius: 4px;
+    height: 50px;
+    align-items: center;
+    color: white;
+    padding-top: 6px;
+}
+
+.resgiterGroupa .no-click {
+    pointer-events: none;
+}
+
+.resgiterGroup .card-textTan {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.resgiterGroup .card-titleTan {
+    color: #87AA74;
+}
+
+.resgiterGroup .cardTan {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.resgiterGroup .body {
+    font-family: "Helvetica", serif;
+}
+
+.resgiterGroup .titleTan {
+    text-align: center;
+    color: #87AA74;
+    margin: 35px;
+}
+
+.resgiterGroup .containerTan {
+    text-align: center;
+}
+
+.resgiterGroup .row-scopeTan {
+    text-align: center;
+}
+
+.resgiterGroup .row-scopeTan td {
+    background-color: #87AA74;
+}
+
+.resgiterGroup .row-tbodyTan {
+    text-align: center;
+}
+
+.resgiterGroup .row-name {
+    text-align: left;
+    width: 300px;
+}
+
+resgiterGroup.table {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+resgiterGroup.justify-content-center {
+    display: inline-block;
+}
+resgiterGroup.KhoiAnh{
+    width: fit-content;
+}

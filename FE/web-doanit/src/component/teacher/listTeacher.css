@@ -1,0 +1,245 @@
+body{
+    font-family: Helvetica, serif ;
+}
+huy{}
+.huy.card-huy {
+    display: inline-block;
+    margin: 10px 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.huy.card-huy:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.huy.card-title {
+    text-align: center;
+    color: #87AA74;
+}
+
+.huy.card-text{
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.huy.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.huy.title{
+    text-align: center;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*background: #87AA74;*/
+    /*color: white;*/
+    color: #87AA74;
+    font-size: 45px;
+}
+
+.huy.action{
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*.huy [class*="col-"] {*/
+/*    width: 100%;*/
+/*    justify-content: center !important;*/
+/*    text-align: center;*/
+/*}*/
+/*@media only screen and (min-width: 600px) {*/
+/*    !* For tablets: *!*/
+/*    .col-m-1 {*/
+/*        width: 8.33%;*/
+/*    }*/
+
+/*    .col-m-2 {*/
+/*        width: 16.66%;*/
+/*    }*/
+
+/*    .huy.col-m-3 {*/
+/*        width: 23%;*/
+/*    }*/
+
+/*    .col-m-4 {*/
+/*        width: 33.33%;*/
+/*    }*/
+
+/*    .col-m-5 {*/
+/*        width: 41.66%;*/
+/*    }*/
+
+/*    .col-m-6 {*/
+/*        width: 50%;*/
+/*    }*/
+
+/*    .col-m-7 {*/
+/*        width: 58.33%;*/
+/*    }*/
+
+/*    .col-m-8 {*/
+/*        width: 66.66%;*/
+/*    }*/
+
+/*    .col-m-9 {*/
+/*        width: 75%;*/
+/*    }*/
+
+/*    .col-m-10 {*/
+/*        width: 83.33%;*/
+/*    }*/
+
+/*    .col-m-11 {*/
+/*        width: 91.66%;*/
+/*    }*/
+
+/*    .col-m-12 {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width: 768px) {*/
+/*    !* For desktop: *!*/
+/*    .col-1 {*/
+/*        width: 8.33%;*/
+/*    }*/
+
+/*    .col-2 {*/
+/*        width: 16.66%;*/
+/*    }*/
+
+/*    .col-3 {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .col-4 {*/
+/*        width: 33.33%;*/
+/*    }*/
+
+/*    .col-5 {*/
+/*        width: 41.66%;*/
+/*    }*/
+
+/*    .col-6 {*/
+/*        width: 50%;*/
+/*    }*/
+
+/*    .col-7 {*/
+/*        width: 58.33%;*/
+/*    }*/
+
+/*    .col-8 {*/
+/*        width: 66.66%;*/
+/*    }*/
+
+/*    .col-9 {*/
+/*        width: 75%;*/
+/*    }*/
+
+/*    .col-10 {*/
+/*        width: 83.33%;*/
+/*    }*/
+
+/*    .col-11 {*/
+/*        width: 91.66%;*/
+/*    }*/
+
+/*    .col-12 {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+.btn-lh{
+    border-radius: 50%;
+
+}
+
+.huy.btn-primary:hover {
+    color: #fff;
+    background-color: #87AA74;
+    border: 1px solid rgba(135, 170, 116, 0.5);
+}
+
+.huy.btn1{
+    border-radius: 5px;
+    border: 1px solid rgba(135, 170, 116, 0.5);
+    height: 31px;
+    background-color: #87AA74;
+    color: white;
+}
+.huy.btn2{
+    border-radius: 5px;
+    border: 1px solid rgba(135, 170, 116, 0.5);
+}
+
+.search-icon{
+    border: none;
+    background: white;
+    width: 30px;
+    height: 30px;
+}
+.button.search-icon:hover svg{
+    height: 35px;
+    width: 35px;
+}
+button.responsive-icon,
+button.responsive-icon-add,
+button.responsive-button-search{
+    display: none;
+}
+.responsive-button-add,
+.responsive-button-search{
+    width: 140px;
+}
+button.responsive-icon-search{
+    display: inline-block;
+    border: none;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.huy.get-started-btn {
+
+    background: #87AA74;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.huy.get-started-btn:hover {
+    background: #3ac162;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .huy.get-started-btn {
+        margin: 0 15px 0 0;
+        padding: 6px 18px;
+    }
+}
+.huy.img{
+    width: 350px;
+    height: 350px;
+}
+.huy i{
+    /*margin-right: 10px;*/
+}
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,63 @@
+.register-teacher body {
+    font-family: "Helvetica", serif;
+}
+.register-teacher .title{
+    text-align: center;
+    color: #87AA74;
+    margin: 35px;
+}
+.register-teacher .modal-title{
+    text-align: center;
+    color: #87AA74;
+}
+.register-teacher .container{
+    text-align: center;
+}
+.register-teacher .row-scope{
+    text-align: center;
+}
+.register-teacher .row-scope .title-table{
+    background-color: #b9daa4;
+}
+.register-teacher .row-tbody{
+    text-align: center;
+}
+.register-teacher .row-name{
+    text-align: left;
+    width: 300px;
+}
+.register-teacher .table {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.register-teacher .justify-content-center{
+    /*display: inline-block;*/
+}
+.register-teacher .a-custom{
+    pointer-events: none;
+}
+.register-teacher .avatar {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+.register-teacher .avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.register-teacher label{
+    font-weight: bold;
+    text-align: left;
+}
+.register-teacher h2{
+    text-align: center;
+}
+.register-teacher .form-group{
+    margin: 10px;
+}
+.register-teacher .form-group label{
+    float: left;
+    margin: 5px;
+}

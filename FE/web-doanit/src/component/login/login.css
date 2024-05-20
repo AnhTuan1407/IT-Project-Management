@@ -1,0 +1,135 @@
+/*.login .btn-outline-success {*/
+/*    width: 100%;*/
+/*    height: 45px;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    color: #100f0f;*/
+/*    box-shadow: rgba(0, 0, 0, 0.4);*/
+/*}*/
+
+/*.login .avatar {*/
+/*    margin-top: 0;*/
+/*    width: 75%;*/
+/*    height: auto;*/
+/*}*/
+
+/*.login .avatar-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.login .login-section .form-box h2 {*/
+/*    text-align: center;*/
+/*    font-size: 25px;*/
+/*}*/
+/*1111*/
+/*.login .form-box .input-box {*/
+/*    width: calc(100% - 28px);*/
+/*    height: 45px;*/
+/*    border-bottom: 2px solid #100f0f;*/
+/*    margin: 40px 0;*/
+/*    position: relative;*/
+/*}*/
+/*1111*/
+
+/*.login .input-box input {*/
+/*    width: 100%;*/
+/*    height: 45px;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    font-size: 16px;*/
+/*    padding-right: 28px;*/
+/*}*/
+
+.login .input-box input:focus ~ label,
+.login .input-box input:valid ~ label {
+    top: -5px;
+}
+
+/*.login .input-box label {*/
+/*    position: absolute;*/
+/*    !*top: 50%;*!*/
+/*    left: 0;*/
+/*    transform: translateY(-50%);*/
+/*    font-size: 16px;*/
+/*    pointer-events: none;*/
+/*    transition: .3s ease;*/
+/*}*/
+
+/*.login Form {*/
+/*    margin-top: 90px;*/
+/*}*/
+
+/*.login .social-icon a i {*/
+/*    color: #100f0f;*/
+/*    font-size: 24px;*/
+/*    margin-left: 10px;*/
+/*    cursor: pointer;*/
+/*    transition: .5s ease;*/
+/*    margin-bottom: 45px;*/
+/*}*/
+
+/*.login .social-icon {*/
+/*    margin-left: 45px;*/
+/*}*/
+
+.login .social-icon a:hover i {
+    transform: scale(1.2);
+}
+
+/*.login .input-box .icon {*/
+/*    position: absolute;*/
+/*    top: 13px;*/
+/*    right: 0;*/
+/*    font-size: 19px;*/
+/*}*/
+
+/*.login .remember-password {*/
+/*    font-size: 14px;*/
+/*    font-weight: 500;*/
+/*    margin: -15px 0 15px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.login .remember-password label input {*/
+/*    accent-color: #100f0f;*/
+/*    margin-right: 3px;*/
+/*}*/
+
+/*.login .container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh; !* Chiều cao viewport *!*/
+/*}*/
+
+/*.login .row {*/
+/*    margin: 0 auto; !* Căn giữa theo trục ngang *!*/
+/*}*/
+
+/*.login .card {*/
+/*    width: 70%; !* Chiếm toàn bộ chiều rộng của row *!*/
+/*}*/
+
+/*.login .body {*/
+/*    background-color: #cbecb7;*/
+/*    font-family: "Helvetica", serif;*/
+/*}*/
+
+.login .btn-outline-success:hover {
+    background-color: #b4d0a5 !important;
+    border-color: #b4d0a5 !important;
+    color: white !important;
+}
+
+/*.login .input-box .error-message {*/
+/*    color: red;*/
+/*    font-size: 12px;*/
+/*   */
+/*}*/
+
+

@@ -1,0 +1,68 @@
+.protect .student-name {
+    text-align: center;
+}
+
+.protect .pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.protect h2 {
+    text-align: center;
+    /*background-color: #87AA74;*/
+    border-radius: 4px;
+    height: 50px;
+    align-items: center;
+    /*color: white;*/
+    color: #87AA74;
+    padding-top: 6px;
+}
+
+.protect a.no-click {
+    pointer-events: none;
+}
+
+.protect .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.protect .card-title {
+    color: #87AA74;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.protect .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.protect .card-img-top {
+    object-fit: cover;
+    height: auto;
+    text-align: center;
+}
+
+.protect .card-title:hover {
+    overflow: visible;
+}
+
+.protect .img-teacher {
+    width: 40px;
+    height: 40px;
+
+}
+.protect.card-text i{
+    color: black;
+}
+.center-icon {
+margin-left: auto;
+margin-right: auto;
+}
+
+.protect i {
+    margin-right: 0 !important;
+}

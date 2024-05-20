@@ -1,0 +1,59 @@
+.title1Nghia{
+    color: #87aa74;
+    text-align: center;
+    margin-top: 20px;
+}
+.thNghia{
+    text-align: center;
+}
+.tdNghia{
+    text-align: center;
+}
+.btndeleteNghia{
+    text-align: right;
+    padding: 10px;
+}
+.btnmemberNghia{
+    text-align: left;
+}
+#inputsearch{
+    align-content: center;
+}
+.tableNghia {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-collapse: collapse;
+
+}
+table, th, td {
+    border: 1px solid rgba(131,131,131,0.24);
+}
+
+table thead th{
+    height: 50px;
+}
+.theadNghia{
+    background-color: #87aa74;
+}
+.justify-content-endNghia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerNghia{
+    width: auto;
+    height: 100%;
+    text-align: center;
+}
+.no-border {
+    border-left: none;
+    border-right: none;
+}
+.containerNghia{
+    align-content: center;
+}
+#pagination{
+    margin-top: 20px;
+}
+.containerNghia i{
+    margin-right: 0 !important;
+}
